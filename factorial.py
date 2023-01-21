@@ -1,12 +1,12 @@
 def factorial():
 	f=int(input("enter factorial number"))
 	fact=f
-	k=1
+	multiplier=1
 	while f>0:
-		e=f
-		k=k*e
+		value=f
+		multiplier=multiplier*value
 		f-=1
-	print(f"The factorial [ {fact}! ] =", k)
+	print(f"The factorial [ {fact}! ] =", multiplier)
 factorial()
 
 #factorial !
